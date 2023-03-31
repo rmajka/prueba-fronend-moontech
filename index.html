@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prueba fronten</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img
+        class="top-logo"
+        src="./images//Captura de pantalla 2023-03-31 134421.png"
+        alt="the-cocktailDb"
+      />
+      <button class="ocultar-filtro-btn">Ocultr filtro</button>
+      <form class="form">
+        <div class="select-container">
+            <label for="buscar">buscar por:</label>
+        <select id="buscar" name="buscar">
+            <option value="nombre">Nombre</option>
+            <option value="vaso">Vaso</option>
+            <option value="ingrediente">Ingrediente</option>
+            <option value="categoria">Categoría</option>
+        </select>
+        </div>
+        <div class="input-container">
+            <label class="inputLabel" for="input">Nombre</label>
+            <input class="input" type="text" />
+        </div>
+        
+        <button class="form-btn">Filtrar</button>
+      </from>
+    </nav>
+    <main class="main-content"></main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
